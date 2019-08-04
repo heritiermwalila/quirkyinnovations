@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'reset';
+@import 'fonts';
+@import 'footer';
+@import 'components/init';
+html{
+    font-size: 10px;
+}
+body{
+    color: #222;
+    font-family: $font_r !important;
+    font-size: 1.6rem;
+}
+h1{
+    font-size: $primary_size;
+}
+//PAGE CONTAINER
+.page-container{
+    .header{
+        height: 78px;
+        background: $primary_color;
+        .container{
+            height: 100px;
+            overflow: hidden;
+        }
+    }
+    .page__content{
+        padding: 2rem 0;
+    }
+}
